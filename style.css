@@ -1,9 +1,7 @@
-
-
-
 header h1 {
     text-align: center;
 }
+
 nav ul {
     display: flex;
     justify-content: center;
@@ -16,7 +14,11 @@ nav a {
     text-decoration: none;
 }
 
+body {
+    background-color: #FFF8E7;
+}
 
+/* About / Story */
 .story {
     max-width: 800px;
     margin: 40px auto;
@@ -39,13 +41,16 @@ nav a {
     margin-bottom: 20px;
 }
 
+/* Main Content */
 main h2 {
     text-align: center;
 }
+
 main p {
     text-align: center;
 }
 
+/* Facebook Box */
 .facebook-box {
     max-width: 800px;
     margin: 40px auto;
@@ -62,11 +67,14 @@ main p {
     margin-top: 20px;
 }
 
+/* Product Title */
 .product-title {
     text-align: center;
     font-size: 36px;
     margin: 30px 0;
 }
+
+/* Product Information */
 .product-info {
     max-width: 800px;
     margin: 30px auto;
@@ -81,8 +89,7 @@ main p {
     margin-bottom: 20px;
 }
 
-
-
+/* Ingredients */
 .ingredients {
     max-width: 500px;
     margin: 30px auto;
@@ -98,7 +105,7 @@ main p {
     padding: 5px;
 }
 
-
+/* Specifications Table */
 .specifications {
     width: 100%;
     border-collapse: collapse;
@@ -114,36 +121,14 @@ main p {
 .specifications th {
     font-weight: bold;
 }
+
+/* Product Image */
 .product-image {
     width: 400px;
     margin: 30px auto;
     padding: 15px;
     background-color: white;
     border: 2px solid #ddd;
-    border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
-    text-align: center;
-}
-
-.product-image img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 10px;
-}
-
-
-body {
-    background-color: #FFF8E7;
-}
-
-/* Product image box */
-.product-image {
-    width: 400px;
-    margin: 30px auto;
-    padding: 15px;
-    background-color: #D9B77A; 
-    border: 2px solid #d4a76a;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
     text-align: center;
