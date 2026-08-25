@@ -83,19 +83,20 @@ main p {
 
 
 
-
 .ingredients {
     max-width: 500px;
-    margin: 0 auto;
-    padding: 20px 40px;
+    margin: 30px auto;
+    padding: 25px 40px;
+    background-color: #FFF3D6;
+    border: 2px solid #D9B77A;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.10);
     line-height: 2;
 }
 
 .ingredients li {
     padding: 5px;
 }
-
-
 
 
 .specifications {
@@ -119,6 +120,30 @@ main p {
     padding: 15px;
     background-color: white;
     border: 2px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+
+body {
+    background-color: #FFF8E7;
+}
+
+/* Product image box */
+.product-image {
+    width: 400px;
+    margin: 30px auto;
+    padding: 15px;
+    background-color: #D9B77A; 
+    border: 2px solid #d4a76a;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
     text-align: center;
