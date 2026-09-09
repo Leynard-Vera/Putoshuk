@@ -87,6 +87,46 @@
 
 </section>
 
+<section class="product-info order-form">
+    <h2>Order Enquiry Form</h2>
+
+    <form>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="20" required>
+
+        <fieldset>
+            <legend>Delivery Method</legend>
+
+            <input type="radio" id="pickup" name="delivery" value="pickup">
+            <label for="pickup">Pick-up</label>
+
+            <input type="radio" id="standard" name="delivery" value="standard">
+            <label for="standard">Standard Delivery</label>
+
+            <input type="radio" id="express" name="delivery" value="express">
+            <label for="express">Express Delivery</label>
+        </fieldset>
+
+        <p>Optional Extras:</p>
+
+        <input type="checkbox" id="gift" name="extras" value="gift">
+        <label for="gift">Gift Wrapping</label>
+
+        <input type="checkbox" id="express-handling" name="extras" value="express-handling">
+        <label for="express-handling">Express Handling</label>
+
+        <input type="checkbox" id="message" name="extras" value="message">
+        <label for="message">Add a Special Message</label>
+
+        <label for="email">Contact Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <button type="submit">Send Order Enquiry</button>
+
+    </form>
+</section>
+
     
 </main>
 <footer>

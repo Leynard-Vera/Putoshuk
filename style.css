@@ -300,3 +300,64 @@ footer p {
         font-size: 26px;
     }
 }
+
+.order-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.order-form label {
+    font-weight: bold;
+}
+
+.order-form input[type="number"],
+.order-form input[type="email"] {
+    padding: 10px;
+    border: 1px solid #d8b99c;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.order-form fieldset {
+    border: 1px solid #d8b99c;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.order-form legend {
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+.order-form input[type="radio"],
+.order-form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.order-form fieldset label,
+.order-form form > label {
+    margin-bottom: 3px;
+}
+
+.order-form p {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.order-form button {
+    background: #8b5e3c;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.order-form button:hover {
+    background: #6f472d;
+}
