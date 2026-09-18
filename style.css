@@ -1,3 +1,10 @@
+:root {
+    --brand-color: #f4b942;
+    --dark-ink: #4a2c20;
+    --muted-grey: #6b4b3e;
+    --light-background: #fff8ed;
+}
+
 * {
     box-sizing: border-box;
 }
