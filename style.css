@@ -18,19 +18,18 @@ body {
 }
 
 
+
+
 .site-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-header {
     background-color: #f4b942;
     padding: 25px 40px;
     border-bottom: 5px solid #d88b20;
 }
 
-header h1 {
+.site-header h1 {
     margin: 0;
     font-size: 42px;
     color: #ffffff;
@@ -48,7 +47,7 @@ header h1 {
     margin: 0;
 }
 
-nav a {
+.site-header nav a {
     text-decoration: none;
     color: white;
     background-color: #8b4513;
@@ -57,9 +56,12 @@ nav a {
     transition: 0.3s;
 }
 
-nav a:hover {
+.site-header nav a:hover {
     background-color: #5f2f12;
 }
+
+
+
 
 main {
     max-width: 1100px;
@@ -68,10 +70,16 @@ main {
     text-align: center;
 }
 
+
+
 main > h2 {
     font-size: 32px;
     color: #8b4513;
     margin-bottom: 5px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main > p {
@@ -86,6 +94,7 @@ main > img {
     margin: 20px 0 40px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 }
+
 
 section {
     margin-top: 30px;
@@ -152,6 +161,9 @@ article a:hover {
     background-color: #c97915;
 }
 
+
+
+
 section h3 {
     margin: 40px 0;
 }
@@ -172,6 +184,8 @@ section h3 a:hover {
     transform: scale(1.05);
 }
 
+
+
 footer {
     margin-top: 50px;
     padding: 25px;
@@ -183,6 +197,9 @@ footer {
 footer p {
     margin: 5px;
 }
+
+
+
 
 .story {
     max-width: 800px;
@@ -206,6 +223,7 @@ footer p {
     margin-bottom: 20px;
 }
 
+
 .facebook-box {
     max-width: 800px;
     margin: 40px auto;
@@ -221,6 +239,9 @@ footer p {
     height: auto;
     margin-top: 20px;
 }
+
+
+
 
 .product-title {
     text-align: center;
@@ -257,6 +278,8 @@ footer p {
     padding: 5px;
 }
 
+
+
 .specifications {
     width: 100%;
     border-collapse: collapse;
@@ -272,6 +295,9 @@ footer p {
 .specifications th {
     font-weight: bold;
 }
+
+
+/* PRODUCT IMAGE */
 
 .product-image {
     width: 400px;
@@ -291,18 +317,16 @@ footer p {
     border-radius: 10px;
 }
 
-@media (max-width: 700px) {
 
-    header {
-        padding: 20px;
-    }
+@media (max-width: 700px) {
 
     .site-header {
         flex-direction: column;
         gap: 20px;
+        padding: 20px;
     }
 
-    header h1 {
+    .site-header h1 {
         font-size: 32px;
     }
 
@@ -320,6 +344,7 @@ footer p {
         font-size: 26px;
     }
 }
+
 
 .order-form form {
     display: flex;
