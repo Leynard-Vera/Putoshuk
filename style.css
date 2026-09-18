@@ -17,28 +17,35 @@ body {
     line-height: 1.6;
 }
 
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 header {
     background-color: #f4b942;
     padding: 25px 40px;
-    text-align: center;
     border-bottom: 5px solid #d88b20;
 }
 
 header h1 {
-    margin: 0 0 10px;
+    margin: 0;
     font-size: 42px;
     color: #ffffff;
 }
 
-nav ul {
+.site-header nav ul {
+    display: flex;
+    gap: 20px;
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-nav ul li {
-    display: inline-block;
-    margin: 0 10px;
+.site-header nav ul li {
+    margin: 0;
 }
 
 nav a {
@@ -290,12 +297,18 @@ footer p {
         padding: 20px;
     }
 
+    .site-header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
     header h1 {
         font-size: 32px;
     }
 
-    nav ul li {
-        margin: 5px;
+    .site-header nav ul {
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     article {
